@@ -1,0 +1,22 @@
+{
+  "name": "wire-vue-sample",
+  "version": "1.0.4",
+  "description": "WireBootstrap for Vue.js Sample Application",
+  "license": "https://www.wirebootstrap.com/license/themes-license.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "@wirebootstrap/wire-bootstrap": "^2.1.5",
+    "bootstrap": "^4.6.0",
+    "grunt": "^1.4.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.2",
+    "vite": "^2.8.4"
+  }
+}

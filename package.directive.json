@@ -1,0 +1,10 @@
+{
+  "name": "@wirebootstrap/wire-vue",
+  "version": "1.0.4",
+  "description": "WireBootstrap Vue.js Directive",
+  "license": "https://www.wirebootstrap.com/license/themes-license.html",  
+  "dependencies": {
+    "@wirebootstrap/wire-bootstrap": "^2.1.5",
+    "vue": "^3.2.31"
+  }
+}

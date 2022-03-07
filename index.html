@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WireBootstrap for Vue.js</title>
+    
+    <!-- Theme Css -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./theme/css/style.css">        
+
+    <!-- WireBootstrap-->
+    <link rel="stylesheet" href="./node_modules/@wirebootstrap/wire/wire.css" />
+    
+  </head>
+  <body>
+
+    <div class="wrapper d-flex align-items-stretch">
+      <nav id="sidebar">
+          <div class="p-4 pt-5">
+              <a href="#" class="img logo rounded-circle mb-5" style="background-image: url(/vuejs-120x104.jpg);"></a>
+              <ul class="list-unstyled components mb-5">
+                  <li>
+                      <a href="#menu-filter" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">WireBootstrap for Vue.js</a>
+                      <ul class="collapsed list-unstyled" id=menu-filter>
+                          <li class="active">
+                              <a href="./index.html">Vue Directive</a>
+                          </li>
+                      </ul>                        
+                  </li>
+              </ul>               
+          </div>
+      </nav>
+
+      <!-- Vue.js App Content  -->
+      <div id="app" class="p-4 p-md-5">         
+      </div>
+
+  </div>  
+
+    <!-- Theme Js -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="./theme/js/popper.js"></script>
+    <script src="./theme/js/bootstrap.min.js"></script>
+    <script src="./theme/js/main.js"></script>
+
+  <!-- WireBootstrap -->
+  <script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="./node_modules/@wirebootstrap/wire/wire.js"></script>
+  <script type="text/javascript" src="./node_modules/@wirebootstrap/wire-bootstrap/wire-bootstrap.js "></script>
+
+  <!-- App main -->
+  <script type="module" src="/src/main.js"></script>
+  
+  </body>
+</html>

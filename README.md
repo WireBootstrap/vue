@@ -1,4 +1,4 @@
-# WireBootstrap for React
+# WireBootstrap for Vue.js
 Vue.js is an approachable, performant and versatile framework for building web user interfaces.
 
 **WireBootstrap for Vue.js** features a Vue Directive that allows any WireBootstrap component to be used inside the Vue.js framework.  With this component, there is no need for WireBootstrap component authors to create a separate Vue.js version of their component.  
